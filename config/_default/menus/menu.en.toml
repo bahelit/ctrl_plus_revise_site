@@ -1,0 +1,25 @@
+#  menu items
+[[main]]
+  name = "Blog"
+  weight = 4
+  url = "blog/"
+
+[[main]]
+  name = "Docs"
+  weight = 2
+  url = "docs/"
+
+[[main]]
+  name = "Tutorials"
+  weight = 2
+  url = "tutorials/"
+
+[[main]]
+  name = "Discord"
+  weight = 6
+  url = "https://discord.gg/TYBtGUdVBU"
+
+[[main]]
+  name = "Download"
+  weight = 6
+  url = "https://github.com/bahelit/ctrl_plus_revise/releases"
