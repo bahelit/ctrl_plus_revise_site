@@ -12,7 +12,7 @@
 [[main]]
   name = "Tutorials"
   weight = 2
-  url = "tutorials/"
+  url = "docs/tutorials/"
 
 [[main]]
   name = "Discord"
