@@ -1,4 +1,4 @@
-baseURL = "https://www.ctrlplusrevise.com/"
+baseURL = "https://ctrlplusrevise.com"
 title = "Ctrl + Revise"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
