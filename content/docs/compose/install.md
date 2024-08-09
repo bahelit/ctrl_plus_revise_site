@@ -30,7 +30,7 @@ Arch Linux users can install Ollama from the official repository.
 {{< /tabs >}}
 
 ###### Connect to Ollama
-If you are running ollama on a different machine, you can connect to it by setting the environment variable OLLAMA_HOST
+If you are running ollama on a different machine, you can connect to it by setting the environment variable `OLLAMA_HOST`
 ```bash
 OLLAMA_HOST=http://<host-IP>:11434; ctrl_plus_revise
 ```
@@ -40,14 +40,18 @@ If users select to use [Docker](https://docker.com) to run Ollama, Ctrl+Revise w
 
 The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.
 
-```bash
-# Docker command for CPUs
-docker run -d -v ollama:/root/.ollama -p 11434:11434 --restart=always --name ollama ollama/ollama
-# Docker command for Nvidia GPUs
-docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --restart=always --name ollama ollama/ollama
-# Docker command for AMD GPUs
-docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 --name ollama --restart=always ollama/ollama:rocm
-```
+{{< tabs "tabsId" >}}
+{{< tab "Docker command for AMD GPUs" >}}
+`docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 --name ollama --restart=always ollama/ollama:rocm`
+{{< /tab >}}
+{{< tab "Docker command for Nvidia GPUs" >}}
+`docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --restart=always --name ollama ollama/ollama`
+{{< /tab >}}
+{{< tab "Docker command for CPUs" >}}
+`docker run -d -v ollama:/root/.ollama -p 11434:11434 --restart=always --name ollama ollama/ollama`
+{{< /tab >}}
+{{< /tabs >}}
+
 {{< tip >}}
 The Docker integration is disabled by default and can be enabled in the settings.
 {{< /tip >}}
