@@ -19,9 +19,9 @@ Ctrl+Revise is a local `AI Assistant`, built on [Ollama](https://ollama.com/).
 Feel free to open a [PR](https://github.com/bahelit/ctrl_plus_revise/pulls), raise an [issue](https://github.com/bahelit/ctrl_plus_revise/issues/new/choose "Open a Github Issue")(s) or request new feature(s). {{< /tip >}}
 
 {{< tip >}}
-You can correct your grammar, revise your words to be more friendly or professional, summarize or expand on text and create headlines or [lists](./docs/compose/mermaid/).
+You can correct your grammar, revise your words to be more friendly or professional, summarize or expand on text and create headlines or [lists](./docs/tutorials/bundled_prompts).
 
-Or, [ask questions](docs/compose/graphs-charts-tables/#show-a-pie-doughnut--bar-chart-at-once) directly to the AI.
+Or, [ask questions](docs/tutorials/ask_ai) directly to the AI.
 {{< /tip >}}
 
 {{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/bahelit/ctrl_plus_revise/releases" "Download" >}}
