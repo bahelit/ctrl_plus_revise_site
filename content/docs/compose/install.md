@@ -32,7 +32,7 @@ Arch Linux users can install Ollama from the official repository.
 ###### Connect to Ollama
 If you are running ollama on a different machine, you can connect to it by setting the environment variable `OLLAMA_HOST`
 ```bash
-OLLAMA_HOST=http://<host-IP>:11434; ctrl_plus_revise
+export OLLAMA_HOST=http://<host-IP>:11434; ctrl_plus_revise
 ```
 
 ##### Docker (optional)
