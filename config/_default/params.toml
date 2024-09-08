@@ -42,8 +42,8 @@ key = "" # Search-Only API Key
 
 # Site logo
 [logo]
-  lightMode = "images/compose.svg"
-  darkMode = "images/compose-light.svg"
+  lightMode = "/images/compose.svg"
+  darkMode = "/images/compose-light.svg"
 
 [source]
   name = "GitHub"

@@ -13,7 +13,7 @@ title = "Projects"
 
 # Ctrl + Revise with **Ease**.
 
-Ctrl+Revise is a local `AI Assistant`, built on [Ollama](https://ollama.com/).
+Ctrl+Revise is your local and private `AI Assistant`, built on [Ollama](https://ollama.com/).
 
 {{< tip "warning" >}}
 Feel free to open a [PR](https://github.com/bahelit/ctrl_plus_revise/pulls), raise an [issue](https://github.com/bahelit/ctrl_plus_revise/issues/new/choose "Open a Github Issue")(s) or request new feature(s). {{< /tip >}}
@@ -28,6 +28,6 @@ Or, [ask questions](docs/tutorials/ask_ai) directly to the AI.
 {{< /column >}}
 
 {{< column >}}
-![diy](/images/llamaInLibrary.png)
+![diy](llamaInLibrary.png)
 {{< /column >}}
 {{< /block >}}

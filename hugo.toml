@@ -14,5 +14,8 @@ enableGitInfo = true
 
 [params]
 author = "Michael Salmons"
-favicon = "/images/favicon.ico"
-site_logo = "/images/logo.png"
+#favicon = "/favicon.ico"
+site_logo = "/images/icon.png"
+
+[params.meta]
+favicon = false
