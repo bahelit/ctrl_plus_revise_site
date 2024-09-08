@@ -12,10 +12,17 @@ This page tells you how to get started with Ctr+Revise.
 ### Prerequisites
 
 ##### Ollama
-First ensure that you have `Ollama` installed.
+If `Ollama` is not installed you will be assisted in getting it installed.
 
 You can download the latest release from the [Ollama.com](https://ollama.com/download) website.
 
+###### MacOS
+MacOS users can install Ollama using Homebrew.
+```bash
+brew install ollama
+```
+
+###### Arch Linux
 Arch Linux users can install Ollama from the official repository.
 {{< tabs "tabsId" >}}
 {{< tab "AMD GPU" >}}
